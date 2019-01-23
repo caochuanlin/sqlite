@@ -8,9 +8,7 @@
 		~SqliteTool();
 	
 	public:
-		/// \brief 打开数据库
-		///
-		/// 若数据库不存在，则直接创建
+		/// \brief 打开数据库，若数据库不存在则直接创建
 		static void OpenDataBase(const QString& strConnectionName);
 		/// \brief 关闭数据库
 		static void CloseDataBase();
